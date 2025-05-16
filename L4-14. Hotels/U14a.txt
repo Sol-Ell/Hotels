@@ -1,0 +1,14 @@
+Smith, John, OceanView, Deluxe, 7
+Moe, Jane, MountainLodge, Standard, 10
+Doe, Jane, MountainLodge, Standard, 10
+Doe, Jane2, MountainLodge, Standard, 10
+Brown, Alice, CityInn, Suite, 5
+Johnson, Mike, OceanView, Standard, 3
+Taylor, Emily, GrandPalace, Suite, 8
+Davis, Anna, GrandPalace, Deluxe, 6
+Miller, Robert, CityInn, Standard, 4
+Wilson, Laura, , , 0
+
+
+Anderson, Thomas, MountainLodge, Deluxe, 2
+Moore, Sarah, , , 0

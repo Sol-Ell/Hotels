@@ -1,0 +1,15 @@
+Extracted information about hotels.
+-------------------------------------
+|Name           |Room      |Price   |
+-------------------------------------
+|OceanView      |Standard  |100     |
+|OceanView      |Deluxe    |150     |
+|MountainLodge  |Standard  |90      |
+|MountainLodge  |Deluxe    |130     |
+|CityInn        |Standard  |80      |
+|CityInn        |Suite     |120     |
+|GrandPalace    |Deluxe    |170     |
+|GrandPalace    |Suite     |200     |
+|SeaResort      |Standard  |110     |
+|HilltopHotel   |Suite     |140     |
+-------------------------------------
