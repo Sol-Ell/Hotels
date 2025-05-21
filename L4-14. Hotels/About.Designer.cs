@@ -34,15 +34,15 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 12);
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Dock = DockStyle.Fill;
+            textBox1.Location = new Point(0, 0);
+            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(776, 27);
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(800, 450);
             textBox1.TabIndex = 0;
             textBox1.Text = resources.GetString("textBox1.Text");
-            textBox1.Multiline = true;
-            textBox1.Dock = DockStyle.Fill;
-            textBox1.ReadOnly = true;
-            textBox1.BorderStyle = BorderStyle.None;
             // 
             // About
             // 

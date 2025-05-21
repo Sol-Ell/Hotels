@@ -1,5 +1,4 @@
 ﻿// LogsView.cs
-using System.Windows.Forms;
 
 namespace L3_14.Public_transport
 {

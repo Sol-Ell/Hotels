@@ -118,9 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Hotels – About
-
-Problem:
+    <value>Problem:
 Travelers choose hotels before summer vacations. The application processes traveler and hotel data to:
 - List hotels chosen by travelers (by hotel name).
 - List hotels not chosen by travelers (by hotel name).
