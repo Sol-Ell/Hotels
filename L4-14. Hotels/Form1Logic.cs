@@ -7,7 +7,7 @@ namespace L4_14._Hotels
     {
         private DoublyLinkedList<Traveler> travelers = [];
         private DoublyLinkedList<Hotel> hotels = [];
-        private LogsView logs = new LogsView();
+        private Logs logs = new Logs();
 
         private void Setup()
         {

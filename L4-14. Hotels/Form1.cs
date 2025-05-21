@@ -130,5 +130,9 @@ namespace L4_14._Hotels
             listBox1.Items.Clear();
             IOUtils.DisplayHotels(hotels, "Extracted information about hotels.", line => listBox1.Items.Add(line));
         }
+
+        private void About(object sender, EventArgs e)
+        {
+        }
     }
 }

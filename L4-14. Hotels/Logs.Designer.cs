@@ -1,6 +1,6 @@
 ﻿namespace L3_14.Public_transport
 {
-    partial class LogsView
+    partial class Logs
     {
         /// <summary>
         /// Required designer variable.

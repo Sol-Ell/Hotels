@@ -6,12 +6,12 @@ namespace L3_14.Public_transport
     /// <summary>
     /// A form used to display log messages within the application.
     /// </summary>
-    public partial class LogsView : Form
+    public partial class Logs : Form
     {
         /// <summary>
         /// Initializes a new instance of the LogsView class.
         /// </summary>
-        public LogsView()
+        public Logs()
         {
             InitializeComponent();
         }

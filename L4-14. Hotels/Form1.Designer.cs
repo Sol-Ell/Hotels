@@ -49,6 +49,7 @@
             label1 = new Label();
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
             SuspendLayout();
@@ -56,7 +57,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, tasksToolStripMenuItem, tasksToolStripMenuItem1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, tasksToolStripMenuItem, tasksToolStripMenuItem1, aboutToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(882, 28);
@@ -73,21 +74,21 @@
             // openTravelersFileToolStripMenuItem
             // 
             openTravelersFileToolStripMenuItem.Name = "openTravelersFileToolStripMenuItem";
-            openTravelersFileToolStripMenuItem.Size = new Size(213, 26);
+            openTravelersFileToolStripMenuItem.Size = new Size(224, 26);
             openTravelersFileToolStripMenuItem.Text = "Open travelers file";
             openTravelersFileToolStripMenuItem.Click += OpenTravelers;
             // 
             // openHotelsFileToolStripMenuItem
             // 
             openHotelsFileToolStripMenuItem.Name = "openHotelsFileToolStripMenuItem";
-            openHotelsFileToolStripMenuItem.Size = new Size(213, 26);
+            openHotelsFileToolStripMenuItem.Size = new Size(224, 26);
             openHotelsFileToolStripMenuItem.Text = "Open hotels file";
             openHotelsFileToolStripMenuItem.Click += OpenHotels;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(213, 26);
+            saveToolStripMenuItem.Size = new Size(224, 26);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += Save;
             // 
@@ -202,6 +203,13 @@
             toolStripStatusLabel1.Size = new Size(151, 20);
             toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
+            // aboutToolStripMenuItem
+            // 
+            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            aboutToolStripMenuItem.Size = new Size(64, 24);
+            aboutToolStripMenuItem.Text = "About";
+            aboutToolStripMenuItem.Click += About;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -246,5 +254,6 @@
         private ToolStripMenuItem hotelsNotChosenByTravelersToolStripMenuItem;
         private ToolStripMenuItem travelersWhoSpentNoMoreThanMToolStripMenuItem;
         private ToolStripMenuItem travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1;
+        private ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
