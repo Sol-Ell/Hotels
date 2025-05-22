@@ -42,6 +42,7 @@
             hotelsNotChosenByTravelersToolStripMenuItem = new ToolStripMenuItem();
             travelersWhoSpentNoMoreThanMToolStripMenuItem = new ToolStripMenuItem();
             travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1 = new ToolStripMenuItem();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
             listBox1 = new ListBox();
             openFileDialog1 = new OpenFileDialog();
             saveFileDialog1 = new SaveFileDialog();
@@ -49,7 +50,6 @@
             label1 = new Label();
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
-            aboutToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
             SuspendLayout();
@@ -74,21 +74,21 @@
             // openTravelersFileToolStripMenuItem
             // 
             openTravelersFileToolStripMenuItem.Name = "openTravelersFileToolStripMenuItem";
-            openTravelersFileToolStripMenuItem.Size = new Size(224, 26);
+            openTravelersFileToolStripMenuItem.Size = new Size(213, 26);
             openTravelersFileToolStripMenuItem.Text = "Open travelers file";
             openTravelersFileToolStripMenuItem.Click += OpenTravelers;
             // 
             // openHotelsFileToolStripMenuItem
             // 
             openHotelsFileToolStripMenuItem.Name = "openHotelsFileToolStripMenuItem";
-            openHotelsFileToolStripMenuItem.Size = new Size(224, 26);
+            openHotelsFileToolStripMenuItem.Size = new Size(213, 26);
             openHotelsFileToolStripMenuItem.Text = "Open hotels file";
             openHotelsFileToolStripMenuItem.Click += OpenHotels;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(224, 26);
+            saveToolStripMenuItem.Size = new Size(213, 26);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += Save;
             // 
@@ -122,7 +122,7 @@
             // 
             // tasksToolStripMenuItem1
             // 
-            tasksToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { hotelsChosenByTravelersToolStripMenuItem2, hotelsNotChosenByTravelersToolStripMenuItem, travelersWhoSpentNoMoreThanMToolStripMenuItem, travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1 });
+            tasksToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { hotelsChosenByTravelersToolStripMenuItem2, hotelsNotChosenByTravelersToolStripMenuItem, travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1, travelersWhoSpentNoMoreThanMToolStripMenuItem });
             tasksToolStripMenuItem1.Name = "tasksToolStripMenuItem1";
             tasksToolStripMenuItem1.Size = new Size(56, 24);
             tasksToolStripMenuItem1.Text = "Tasks";
@@ -154,6 +154,13 @@
             travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1.Size = new Size(447, 26);
             travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1.Text = "Travellers who plan to spend the most nights in hotels";
             travellersWhoPlanToSpendTheMostNightsInHotelsToolStripMenuItem1.Click += TravellersWhoPlanToSpendTheMostNightsInHotels;
+            // 
+            // aboutToolStripMenuItem
+            // 
+            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            aboutToolStripMenuItem.Size = new Size(64, 24);
+            aboutToolStripMenuItem.Text = "About";
+            aboutToolStripMenuItem.Click += About;
             // 
             // listBox1
             // 
@@ -200,15 +207,8 @@
             // toolStripStatusLabel1
             // 
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(151, 20);
-            toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(64, 24);
-            aboutToolStripMenuItem.Text = "About";
-            aboutToolStripMenuItem.Click += About;
+            toolStripStatusLabel1.Size = new Size(119, 20);
+            toolStripStatusLabel1.Text = "Window opened";
             // 
             // Form1
             // 

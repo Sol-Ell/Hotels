@@ -127,7 +127,7 @@ namespace L4_14._Hotels
         /// <param name="output">An action delegate which specifies how each row of the table is output.</param>
         public static void DisplayTravelers<I>(I travelers, string title, Action<string> output) where I : IEnumerable<Traveler>
         {
-            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 10), ("Name", 10), ("Hotel", 15), ("Room", 10), ("Nights", 8) });
+            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 15), ("Name", 15), ("Hotel", 15), ("Room", 10), ("Nights", 8) });
             table.WithTitle(title);
             table.InsertAnySeq(travelers);
 
@@ -148,7 +148,7 @@ namespace L4_14._Hotels
         /// <param name="output">An action delegate which specifies how each row of the table is output.</param>
         public static void DisplayTravelersFullName<I>(I travelers, string title, Action<string> output) where I : IEnumerable<Traveler>
         {
-            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 10), ("Name", 10) });
+            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 15), ("Name", 15) });
             table.WithTitle(title);
             table.InsertAnySeq(travelers.Select(t => (t.Surname, t.Name)));
 
@@ -169,7 +169,7 @@ namespace L4_14._Hotels
         /// <param name="output">An action delegate which specifies how each row of the table is output.</param>
         public static void DisplayTravelersFullNameAndMoney<I>(I travelers, string title, Action<string> output) where I : IEnumerable<(Traveler, decimal)>
         {
-            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 10), ("Name", 10), ("Paid", 8) });
+            var table = new FixedTableBuilder(new DoublyLinkedList<(string, uint)>() { ("Surname", 15), ("Name", 15), ("Paid", 8) });
             table.WithTitle(title);
             table.InsertAnySeq(travelers.Select(t => (t.Item1.Surname, t.Item1.Name, t.Item2)));
 
